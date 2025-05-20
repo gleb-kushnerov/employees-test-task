@@ -1,0 +1,50 @@
+.button {
+  border-radius: 4px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  border: 1px solid transparent;
+
+  &.primary {
+    background: #4141ff;
+    color: #ffffff;
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        background: #7373f6;
+      }
+    }
+  }
+
+  &.secondary {
+    background: #ffffff;
+    color: #0a0a0a;
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        background: #cfcfcf;
+      }
+    }
+  }
+
+  &.outline {
+    background: #ffffff;
+    color: #4141ff;
+    border-color: #4141ff;
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        border-color: #7373f6;
+        color: #7373f6;
+      }
+    }
+  }
+
+  &.m {
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+
+  &.l {
+    padding: 16px 32px;
+    font-size: 20px;
+  }
+}

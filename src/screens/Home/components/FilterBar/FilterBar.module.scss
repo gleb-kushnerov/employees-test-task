@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.search {
+  flex: 1;
+}
+
+.line {
+  width: 1px;
+  height: 100%;
+  background: #0a0a0a;
+}

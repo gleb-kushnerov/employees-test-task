@@ -1,0 +1,26 @@
+.header {
+  height: var(--header-height);
+
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  color: #4141ff;
+}
+
+.main {
+  margin-top: var(--header-height);
+  background: #f4f4f4;
+  min-height: calc(100svh - var(--header-height));
+}
