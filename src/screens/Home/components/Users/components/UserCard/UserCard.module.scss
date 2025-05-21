@@ -44,6 +44,7 @@
   height: 10px;
   border: 2px solid transparent;
   border-radius: 50%;
+  flex-shrink: 0;
 
   &.Working {
     border-color: #08c539;
